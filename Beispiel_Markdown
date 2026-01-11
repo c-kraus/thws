@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: thws-online
+theme: thws
 paginate: true
 header: '**This is the name of the module** <br> THWS online study programn - presentations with MARP'
 math: mathjax
