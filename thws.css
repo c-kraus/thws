@@ -351,8 +351,8 @@ section.structural h2 strong, section.structural h5 strong {
 }
 
 section.structural th { color: black; }
-section.structural tr {color: white; background-color: #2b2b2b;}
-section.structural tr:nth-child(even) {background-color: #181818;}
+section.structural tr {color: white; background-color: #2b2b2b !important;}
+section.structural tr:nth-child(even) {background-color: #181818 !important;}
 
 
 /* -------------------- CLASS: QUOTE -------------------------------*/
