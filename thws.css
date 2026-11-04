@@ -82,6 +82,12 @@ section > p, ul, ol, table, a {
   overflow: hidden;
 }
 
+/* Inhalt nie stauchen: Eine zu volle Folie läuft sichtbar über den unteren Rand,
+   statt dass einzelne Absätze, Listen oder Tabellen still abgeschnitten werden. */
+section > * {
+  flex-shrink: 0;
+}
+
 
 /* LOGO OBEN LINKS */
 section::before {
