@@ -129,6 +129,12 @@ section h1 {
   line-height: 1 !important;
 }
 
+/* Mit <!-- fit --> skalierte Überschriften: Marp misst die Zeilenhöhe (line-height 1) ohne Unterlängen
+   und schneidet g, p, y unten ab. Eine etwas größere Zeilenhöhe nimmt sie in die gemessene Fläche auf. */
+section h1[data-auto-scaling] {
+  line-height: 1.2 !important;
+}
+
 section h2 {
   font-size: 26px;
   font-weight: 500;
