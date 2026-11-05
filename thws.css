@@ -284,6 +284,16 @@ td, tr {
 tr {color: black; background-color: white !important;}
 tr:nth-child(even) {background-color: #f0f0f0 !important;}
 
+/* Tabellenziffern nur in rechtsbündigen Spalten (Zahlenspalten, `---:`), damit Beträge untereinander stehen.
+   Das Standard-Theme setzt sie für die ganze Tabelle; in Inter sperren sie dann auch Text
+   („1 968“, „Noelle - Neumann“). */
+section table {
+  font-variant: normal;
+}
+section table th[style*="right"], section table td[style*="right"] {
+  font-variant-numeric: tabular-nums;
+}
+
 
 /* -------------------- CLASS: TITELSEITE -------------------------------*/
 
